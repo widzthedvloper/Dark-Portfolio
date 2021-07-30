@@ -698,15 +698,16 @@ body.light hr.separator {
 }
 
 .about .resume-box .time {
-  color: #fff;
+  color: #ffb400;
   font-size: 12px;
   padding: 1px 10px;
   display: inline-block;
   margin-bottom: 12px;
   border-radius: 20px;
   font-weight: 600;
-  background-color: #252525;
   opacity: .8;
+  border: 1px solid #ffb400;
+  background-color: #000;
 }
 
 .about .resume-box h5 {
@@ -737,6 +738,11 @@ body.light hr.separator {
   left: 7px;
   top: 9px;
   opacity: .8;
+}
+
+.logo {
+  width: 95%;
+  height: 95%;
 }
 
 /* Skills */
@@ -1073,12 +1079,13 @@ body.light hr.separator {
   width: 40px;
   line-height: 42px;
   text-align: center;
-  color: #fff;
+  color: #ffb400;
   transition: .3s;
   font-size: 17px;
   margin: 0 6px;
-  background: #2b2a2a;
+  background: #000;
   border-radius: 50%;
+  border:1px solid #ffb400;
 }
 /* Form */
 .contact .contactform input[type=text],
